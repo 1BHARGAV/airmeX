@@ -76,6 +76,16 @@ form {
   margin: 20px 0;
 }
 
+h1{
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
 h3 {
   font-size: 1.5rem;
   margin: 40px 0;
