@@ -1,0 +1,199 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("OSYS_1_new.jpg");
+  background-repeat: no-repeat;
+  background size: 50%;
+  background-position: top -1400px right -900px;
+  background-color: white;
+}
+
+/* AirmeX image */
+img {
+  width: 250px;
+}
+
+/* Input fields */
+input {
+  width: 400px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+/* Submit button */
+button {
+  background-color: #f46521;
+  border: none;
+  border-radius: 25px;
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Button hover animation */
+button:hover {
+  background-color: orange;
+}
+
+/* Placeholder text */
+::placeholder {
+  color: white;
+  opacity: 0.6;
+  font-size: 1.5rem;
+}
+
+/* FontAwesome icons */
+i {
+  margin-right: 20px;
+}
+
+form {
+  margin: 50px 0;
+}
+
+.login-head h1 {
+  font-size: 1.8rem;
+  margin: 20px 0;
+}
+
+.login-head h2 {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 40px 0;
+  text-decoration: underline;
+}
+
+h3 a {
+  color: white;
+}
+
+h3 a:hover {
+  color: white;
+}
+
+@media only screen and (min-width: 300px) {
+  .inner {
+    padding: 15% 0 0 0;
+  }
+
+  img {
+    width: 200px;
+  }
+
+  input {
+    width: 280px;
+    height: 30px;
+  }
+  /* Cppyrights */
+  .footer {
+    font-size: 1.5rem;
+    margin: 20px 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .inner {
+    padding: 15% 0 0 0%;
+  }
+
+  img {
+    width: 220px;
+  }
+
+  input {
+    width: 320px;
+    height: 35px;
+  }
+  /* Cppyrights */
+  .footer {
+    font-size: 1.5rem;
+    margin: 20px 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .inner {
+    padding: 13% 0 0 0%;
+  }
+
+  img {
+    width: 250px;
+  }
+
+  input {
+    width: 350px;
+    height: 35px;
+  }
+  /* Cppyrights */
+  .footer {
+    font-size: 1.5rem;
+    margin: 20px 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .inner {
+    padding: 13% 0 0 0;
+  }
+
+  img {
+    width: 250px;
+    height: auto;
+  }
+
+  input {
+    width: 350px;
+    height: 35px;
+  }
+  /* Cppyrights */
+  .footer {
+    font-size: 1.5rem;
+    margin: 20px 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .inner {
+    padding: 13% 25% 0 5%;
+  }
+
+  img {
+    width: 300px;
+    height: auto;
+    position: relative;
+    left: 90px;
+    top: 100px;
+  }
+
+  .line {
+    height: 300px;
+    border-right: 1px solid white;
+    position: absolute;
+    top: 50px;
+  }
+
+  /* Cppyrights */
+  .footer {
+    font-size: 1.5rem;
+    margin: 60px 0 0 0;
+  }
+}
