@@ -50,6 +50,7 @@ button {
 /* Button hover animation */
 button:hover {
   background-color: orange;
+  outline: none;
 }
 
 /* Placeholder text */
