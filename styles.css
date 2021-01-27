@@ -31,6 +31,7 @@ input {
   font-size: 1.5rem;
   padding-left: 20px;
   margin: 10px 0;
+  outline: none;
 }
 
 /* Submit button */
@@ -43,6 +44,7 @@ button {
   color: white;
   font-size: 1.5rem;
   font-weight: 700;
+  outline: none;
 }
 
 /* Button hover animation */
